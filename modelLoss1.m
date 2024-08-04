@@ -13,6 +13,7 @@ function [loss,gradients] = modelLoss1(net,X,T,idxMiniBatch)
     %physics-informed
     plabel=Y1;
     loss_f=Faultfrequency(order,T,plabel);
+    %function <Faultfrequency> involves other projects and will be made public after the confidentiality is lifted.
     loss_f=mapminmax(loss_f,0,1);
     loss_f=mean(loss_f);
     % Compute loss.
