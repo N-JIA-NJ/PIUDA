@@ -1,2 +1,2 @@
-The main code of the deep neural network has been open sourced. Some preprocessing codes are not open sourced because they are related to the submitted paper. 
+The main code of the deep neural network has been open sourced. Some preprocessing codes are not open sourced because they are related to the other projects that cannot be made public. 
 We will update and improve them in time.
